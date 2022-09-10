@@ -24,7 +24,7 @@
     width:20px;
     height:372px;
     /*background: url(white.png);*/
-    opacity: 15;
+    opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
 within the div they're contained in. Since their positions is realtive
