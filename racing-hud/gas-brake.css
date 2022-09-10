@@ -29,16 +29,16 @@ within the div they're contained in. Since their positions is realtive
 to the size of the parent element, we simply resize the parent element 
 above to achieve the desired position. */
 .custom .trigger.left{ 
+    transform: rotate(90deg);
     position: fixed;
     right: 22px;
     top: 138px;
     background: url(red.png);
-    transform: rotate(90deg);
 }
 .custom .trigger.right{
+    transform: rotate(90deg);
     position: fixed;
     right: 22px;
     top: 72px;
     background: url(green.png);
-    transform: rotate(90deg);
 }
