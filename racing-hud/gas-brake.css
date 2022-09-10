@@ -14,9 +14,9 @@
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 600px;
+    /*width: 600px;
     height: 180px;
-    /*position: absolute;
+    position: absolute;
     left: 206px;
     top: 72px;*/
 }
@@ -24,7 +24,7 @@
     width:20px;
     height:372px;
     /*background: url(white.png);*/
-    opacity: 0;
+    opacity: 15;
 }
 /* The left and right classes below are used to position the triggers
 within the div they're contained in. Since their positions is realtive
