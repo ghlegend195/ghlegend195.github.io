@@ -1,0 +1,36 @@
+.controller.custom{
+    /* The background image is basically the base for the controller's skin. The 
+    PS3 controller's skin can be found at http://mrmcpowned.com/gamepad/ps3-assets/base.png
+    and you can observe it as an example. The sticks, buttons, and directional arrows are missing
+    because their appropriate elements will be incorperated when their styling is defined below.
+    The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
+    background: url("https://github.com/ghlegend195/racing-hud/blob/main/hud-bg.png"); 
+    height: 180px;
+    width: 600px;
+}
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
+}
+.custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+    width: 394px;
+    height: 180px;
+    position: absolute;
+    left: 206px;
+}
+.custom .trigger{/* These are the actual triggers themselves */
+    width:86px;
+    height:65px;
+    background: url("https://github.com/ghlegend195/racing-hud/blob/main/white.png");
+    opacity: 0;
+}
+/* The left and right classes below are used to position the triggers
+within the div they're contained in. Since their positions is realtive
+to the size of the parent element, we simply resize the parent element 
+above to achieve the desired position. */
+.custom .trigger.left{ 
+    float: left;
+}
+.custom .trigger.right{
+    float: right;
+}
