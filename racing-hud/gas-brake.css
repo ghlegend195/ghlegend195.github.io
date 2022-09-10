@@ -15,9 +15,10 @@
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 0px;
-    height: 0px;
+    width: 600px;
+    height: 180px;
     position: absolute;
+    margin-top: -180px;
     z-index: 0;
 }
 .custom .trigger{/* These are the actual triggers themselves */
@@ -31,18 +32,16 @@ within the div they're contained in. Since their positions is realtive
 to the size of the parent element, we simply resize the parent element 
 above to achieve the desired position. */
 .custom .trigger.left{ 
-    /*position: absolute;
+    position: absolute;
     margin-right: 22px;
-    margin-top: 138px;*/
-    float: left;
+    margin-top: 138px;
     background: url(red.png);
     transform: rotate(90deg);
 }
 .custom .trigger.right{
-    /*position: absolute;
+    position: absolute;
     margin-right: 22px;
-    margin-top: 72px;*/
-    float: right;
+    margin-top: 72px;
     background: url(green.png);
     transform: rotate(90deg);
 }
