@@ -4,7 +4,7 @@
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: url("https://github.com/ghlegend195/racing-hud/blob/main/hud-bg.png"); 
+    background: url(/racing-hud/hud-bg.png); 
     height: 180px;
     width: 600px;
 }
@@ -21,7 +21,7 @@
 .custom .trigger{/* These are the actual triggers themselves */
     width:86px;
     height:65px;
-    background: url("https://github.com/ghlegend195/racing-hud/blob/main/white.png");
+    background: url(/racing-hud/white.png);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
