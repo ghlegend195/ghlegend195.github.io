@@ -16,12 +16,14 @@
     width: 394px;
     height: 180px;
     position: absolute;
+    transform: rotate(90deg);
     left: 206px;
+    top: 72px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:86px;
-    height:65px;
-    /*background: url(white.png);*/
+    width:20px;
+    height:372px;
+    background: url(white.png);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
@@ -33,5 +35,4 @@ above to achieve the desired position. */
 }
 .custom .trigger.right{
     float: right;
-    background: url(red.png);
 }
