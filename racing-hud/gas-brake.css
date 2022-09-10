@@ -30,7 +30,6 @@ to the size of the parent element, we simply resize the parent element
 above to achieve the desired position. */
 .custom .trigger.left{ 
     float: left;
-    background: url(red.png);
 }
 .custom .trigger.right{
     float: right;
