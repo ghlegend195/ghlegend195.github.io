@@ -8,6 +8,7 @@
     height: 180px;
     width: 600px;
     position: absolute;
+    z-index: -1;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
@@ -17,7 +18,7 @@
     width: 600px;
     height: 180px;
     position: absolute;
-    z-index: 5;
+    z-index: 0;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:20px;
