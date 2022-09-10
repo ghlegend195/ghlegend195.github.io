@@ -17,8 +17,6 @@
     width: 600px;
     height: 180px;
     position: absolute;
-    left: 206px;
-    top: 72px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:20px;
