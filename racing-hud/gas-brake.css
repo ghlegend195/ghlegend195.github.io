@@ -34,14 +34,14 @@ above to achieve the desired position. */
 .custom .trigger.left{ 
     position: absolute;
     margin-right: 22px;
-    margin-top: 138px;
+    margin-top: 141px;
     background: url(red.png);
     transform: rotate(90deg);
 }
 .custom .trigger.right{
     position: absolute;
     margin-right: 22px;
-    margin-top: 72px;
+    margin-top: 75px;
     background: url(green.png);
     transform: rotate(90deg);
 }
