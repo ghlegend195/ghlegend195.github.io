@@ -7,6 +7,8 @@
     background: url(hud-bg.png); 
     height: 180px;
     width: 600px;
+    position: absolute;
+    z-index: 0;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
@@ -35,6 +37,7 @@ above to achieve the desired position. */
     top: 138px;
     background: url(red.png);
     transform: rotate(90deg);
+    z-index: 1;
 }
 .custom .trigger.right{
     position: absolute;
@@ -42,4 +45,5 @@ above to achieve the desired position. */
     top: 72px;
     background: url(green.png);
     transform: rotate(90deg);
+    z-index: 1;
 }
