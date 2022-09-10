@@ -16,9 +16,9 @@
     width: 394px;
     height: 180px;
     position: absolute;
-    transform: rotate(90deg);
     left: 206px;
     top: 72px;
+    transform: rotate(90deg);
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:20px;
