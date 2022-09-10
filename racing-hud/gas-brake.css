@@ -15,9 +15,9 @@
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
     width: 382px;
     height: 88px;
-    position: absolute;
+    /*position: absolute;
     left: 206px;
-    top: 72px;
+    top: 72px;*/
     transform: rotate(90deg);
 }
 .custom .trigger{/* These are the actual triggers themselves */
