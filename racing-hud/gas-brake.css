@@ -33,14 +33,12 @@ to the size of the parent element, we simply resize the parent element
 above to achieve the desired position. */
 .custom .trigger.left{ 
     position: absolute;
-    left:  206px;
     margin-top: 143px;
     background: url(red.png);
     transform: rotate(90deg);
 }
 .custom .trigger.right{
     position: absolute;
-    left: 206px;
     margin-top: 77px;
     background: url(green.png);
     transform: rotate(90deg);
