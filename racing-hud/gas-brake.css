@@ -5,10 +5,9 @@
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
     background: url(hud-bg.png); 
-    height: 180px;
-    width: 600px;
+    /*height: 180px;
+    width: 600px;*/
     position: absolute;
-    z-index: 0;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
@@ -33,17 +32,15 @@ to the size of the parent element, we simply resize the parent element
 above to achieve the desired position. */
 .custom .trigger.left{ 
     position: absolute;
-    left: 412px;
-    top: -138px;
+    left: 206px;
+    top: 138px;
     background: url(red.png);
     transform: rotate(90deg);
-    z-index: 1;
 }
 .custom .trigger.right{
     position: absolute;
-    left: 412px;
-    top: -72px;
+    left: 206px;
+    top: 72px;
     background: url(green.png);
     transform: rotate(90deg);
-    z-index: 1;
 }
