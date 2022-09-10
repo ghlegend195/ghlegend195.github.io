@@ -21,7 +21,7 @@
 .custom .trigger{/* These are the actual triggers themselves */
     width:86px;
     height:65px;
-    background: url(white.png);
+    /*background: url(white.png);*/
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
@@ -30,7 +30,9 @@ to the size of the parent element, we simply resize the parent element
 above to achieve the desired position. */
 .custom .trigger.left{ 
     float: left;
+    background: url(red.png);
 }
 .custom .trigger.right{
     float: right;
+    background: url(red.png);
 }
