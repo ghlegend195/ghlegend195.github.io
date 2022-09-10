@@ -18,7 +18,6 @@
     /*position: absolute;
     left: 206px;
     top: 72px;*/
-    transform: rotate(90deg);
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:20px;
@@ -35,10 +34,12 @@ above to achieve the desired position. */
     left: 206px;
     top: 138px;
     background: url(red.png);
+    transform: rotate(90deg);
 }
 .custom .trigger.right{
     position: absolute;
     left: 206px;
     top: 72px;
     background: url(green.png);
+    transform: rotate(90deg);
 }
