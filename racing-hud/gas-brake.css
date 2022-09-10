@@ -31,16 +31,18 @@ within the div they're contained in. Since their positions is realtive
 to the size of the parent element, we simply resize the parent element 
 above to achieve the desired position. */
 .custom .trigger.left{ 
-    position: absolute;
+    /*position: absolute;
     margin-right: 22px;
-    margin-top: 138px;
+    margin-top: 138px;*/
+    float: left;
     background: url(red.png);
     transform: rotate(90deg);
 }
 .custom .trigger.right{
-    position: absolute;
+    /*position: absolute;
     margin-right: 22px;
-    margin-top: 72px;
+    margin-top: 72px;*/
+    float: right;
     background: url(green.png);
     transform: rotate(90deg);
 }
