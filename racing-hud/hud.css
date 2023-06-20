@@ -49,17 +49,17 @@ above to achieve the desired position. */
     width: 600px;
     height: 180px;
 }
-.custom .a{
+.custom .a.pressed{
     background: url(sh-up.png);
     top: 19px;
     left: 492px;
 }
-.custom .x{
+.custom .x.a.pressed{
     background: url(sh-down.png);
     top: 14px;
     left: 16px;
 }
-.custom .b{
+.custom .b.pressed{
     background: url(E-BRAKE.png);
     top: 129px;
     left: 124px;
