@@ -4,7 +4,7 @@
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: url(hud-bg.png); 
+    background: url(refined.png); 
     height: 180px;
     width: 600px;
     position: absolute;
@@ -44,4 +44,23 @@ above to achieve the desired position. */
     right: 197px;
     background: url(green.png);
     transform: rotate(90deg);
+}
+.custom .abxy{
+    position: absolute;
+}
+.custom .a{
+    background: url(sh-up.png);
+}
+.custom .x{
+    background: url(sh-down.png);
+}
+.custom .b{
+    background: url(E-BRAKE.png);
+}
+.custom .sticks{
+    position: absolute;
+}
+.custom .stick{
+    position: absolute;
+    background: url(red.png);
 }
