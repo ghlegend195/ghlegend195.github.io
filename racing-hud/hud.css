@@ -44,7 +44,7 @@ above to achieve the desired position. */
     right: 298px;
     background: url(green.png);
 }
-.custom .button.a.pressed{
+.custom .abxy.button.a.pressed{
     position: absolute;
     background: url(sh-up.png);
     height: auto;
@@ -52,7 +52,7 @@ above to achieve the desired position. */
     top: 19px;
     left: 492px;
 }
-.custom .button.x.pressed{
+.custom .abxy.button.x.pressed{
     position: absolute;
     background: url(sh-down.png);
     height: auto;
@@ -60,7 +60,7 @@ above to achieve the desired position. */
     top: 14px;
     left: 16px;
 }
-.custom .button.b.pressed{
+.custom .abxy.button.b.pressed{
     position: absolute;
     background: url(E-BRAKE.png);
     height: auto;
