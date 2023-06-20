@@ -44,7 +44,7 @@ above to achieve the desired position. */
     right: 120px;
     background: url(green.png);
 }
-.custom .abxy{
+.custom .button{
     position: absolute;
     width: 600px;
     height: 180px;
