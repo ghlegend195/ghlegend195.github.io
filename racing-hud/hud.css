@@ -44,38 +44,27 @@ above to achieve the desired position. */
     right: 298px;
     background: url(green.png);
 }
-.custom .abxy{
+.custom .button.a.pressed{
     position: absolute;
-    width: 600px;
-    height: 180px;
-}
-.custom .a{
-    background: none;
-    width: 86px;
-    height: 122px;
-}
-.custom .a.pressed{
     background: url(sh-up.png);
+    height: auto;
+    width: auto;
     top: 19px;
     left: 492px;
 }
-.custom .x{
-    background: none;
-    width: 88px;
-    height: 123px;
-}
-.custom .x.pressed{
+.custom .button.x.pressed{
+    position: absolute;
     background: url(sh-down.png);
+    height: auto;
+    width: auto;
     top: 14px;
     left: 16px;
 }
-.custom .b{
-    background: none;
-    width: 126px;
-    height: 44px;
-}
-.custom .b.pressed{
+.custom .button.b.pressed{
+    position: absolute;
     background: url(E-BRAKE.png);
+    height: auto;
+    width: auto;
     top: 129px;
     left: 124px;
 }
