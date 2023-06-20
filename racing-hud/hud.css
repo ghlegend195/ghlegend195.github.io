@@ -15,15 +15,14 @@
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+    position: absolute;
     width: 600px;
     height: 180px;
-    position: absolute;
-    margin-top: -180px;
     z-index: 0;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:20px;
-    height:372px;
+    width:15px;
+    height:350px;
     /*background: url(white.png);*/
     opacity: 0;
 }
@@ -33,34 +32,48 @@ to the size of the parent element, we simply resize the parent element
 above to achieve the desired position. */
 .custom .trigger.left{ 
     position: absolute;
-    margin-top: 144px;
-    right: 197px;
+    margin-top: 112px;
+    right: 120px;
     background: url(red.png);
     transform: rotate(90deg);
 }
 .custom .trigger.right{
     position: absolute;
-    margin-top: 76px;
-    right: 197px;
+    margin-top: 31px;
+    right: 120px;
     background: url(green.png);
     transform: rotate(90deg);
 }
 .custom .abxy{
     position: absolute;
+    width: 600px;
+    height: 180px;
 }
 .custom .a{
     background: url(sh-up.png);
+    top: 19px;
+    left: 492px;
 }
 .custom .x{
     background: url(sh-down.png);
+    top: 14px;
+    left: 16px;
 }
 .custom .b{
     background: url(E-BRAKE.png);
+    top: 129px;
+    left: 124px;
 }
 .custom .sticks{
     position: absolute;
+    width: 600px;
+    height: 180px;
+    top: 68px;
+    left: 295px;
 }
-.custom .stick{
+.custom .stick.left{
     position: absolute;
     background: url(red.png);
+    height:15px;
+    width: 3px;
 }
