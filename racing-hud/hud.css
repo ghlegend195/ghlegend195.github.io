@@ -31,18 +31,18 @@ within the div they're contained in. Since their positions is realtive
 to the size of the parent element, we simply resize the parent element 
 above to achieve the desired position. */
 .custom .trigger.left{ 
+    transform: rotate(90deg);
     position: absolute;
     margin-top: 112px;
     right: 120px;
-    background: url(red.png);
-    transform: rotate(90deg);
+    background: url(red.png);    
 }
 .custom .trigger.right{
+    transform: rotate(90deg);
     position: absolute;
     margin-top: 31px;
     right: 120px;
     background: url(green.png);
-    transform: rotate(90deg);
 }
 .custom .abxy{
     position: absolute;
@@ -69,7 +69,7 @@ above to achieve the desired position. */
     width: 600px;
     height: 180px;
     top: 68px;
-    left: 295px;
+    left: 293px;
 }
 .custom .stick.left{
     position: absolute;
