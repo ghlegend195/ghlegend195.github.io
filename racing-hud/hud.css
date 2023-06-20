@@ -33,15 +33,15 @@ above to achieve the desired position. */
 .custom .trigger.left{ 
     transform: rotate(90deg);
     position: absolute;
-    top: 112px;
-    right: 120px;
+    top: -55px;
+    right: 295px;
     background: url(red.png);    
 }
 .custom .trigger.right{
     transform: rotate(90deg);
     position: absolute;
-    top: 31px;
-    right: 120px;
+    top: -135px;
+    right: 298px;
     background: url(green.png);
 }
 .custom .button{
