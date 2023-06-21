@@ -57,7 +57,7 @@ above to achieve the desired position. */
 .custom .button.pressed{
     background-position-y: -180px;
 }
-.custom .a{
+.custom .x{
     background-position: 600px 0;
     width: 100px;
     height: 135px;
@@ -68,7 +68,7 @@ above to achieve the desired position. */
     width: 125px;
     height: 180px;
 }
-.custom .x{
+.custom .a{
     background-position: 109px 0;
     left: 491px;
     width: 87px;
