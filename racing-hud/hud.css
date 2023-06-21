@@ -49,6 +49,9 @@ above to achieve the desired position. */
     width: 600px;
     height: 180px;
 }
+.custom .button{
+    visibility: hidden;
+}
 .custom .button.pressed{
     visibility: visible;
 }
