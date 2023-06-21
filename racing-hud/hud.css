@@ -49,11 +49,11 @@ above to achieve the desired position. */
     width: 600px;
     height: 180px;
 }
-.custom .button {
-    visibility: hidden;
-}
-.custom .a.pressed{
+.custom .button.pressed{
     visibility: visible;
+}
+.custom .a{
+    visibility: hidden;
     position: absolute;
     background: url(sh-up.png);
     height: auto;
@@ -61,8 +61,8 @@ above to achieve the desired position. */
     top: 19px;
     left: 492px;
 }
-.custom .x.pressed{
-    visibility: visible;
+.custom .x{
+    visibility: hidden;
     position: absolute;
     background: url(sh-down.png);
     height: auto;
@@ -70,8 +70,8 @@ above to achieve the desired position. */
     top: 14px;
     left: 16px;
 }
-.custom .b.pressed{
-    visibility: visible;
+.custom .b{
+    visibility: hidden;
     position: absolute;
     background: url(E-BRAKE.png);
     height: auto;
