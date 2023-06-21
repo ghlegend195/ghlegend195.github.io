@@ -56,22 +56,23 @@ above to achieve the desired position. */
 }
 .custom .button.pressed{
     background-position-y: -180px;
-    margin-top: 5px;
 }
 .custom .a{
-    background-position: 584px 13px;
-    width: 88px;
-    height: 121px;
+    background-position: 600px 0;
+    width: 100px;
+    height: 135px;
 }
 .custom .b{
-    background-position: 460px 130px;
-    width: 127px;
-    height: 42px;
+    background-position: 475px 0;
+    left: 125px;
+    width: 125px;
+    height: 180px;
 }
 .custom .x{
-    background-position: 106px 20px;
+    background-position: 109px 0;
+    left: 491px;
     width: 87px;
-    height: 122px;
+    height: 140px;
 }
 .custom .sticks{
     position: absolute;
