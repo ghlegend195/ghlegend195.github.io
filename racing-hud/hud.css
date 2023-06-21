@@ -44,43 +44,34 @@ above to achieve the desired position. */
     right: 298px;
     background: url(green.png);
 }
-.custom .axby{
+.custom .abxy{
     position: absolute;
     width: 600px;
     height: 180px;
 }
+/* base class used to simplify the sprite mapping */
 .custom .button{
-    visibility: hidden;
+    position: absolute;
+    background: url(face.png);
 }
 .custom .button.pressed{
-    visibility: visible;
+    background-position-y: -180px;
+    margin-top: 5px;
 }
 .custom .a{
-    visibility: hidden;
-    position: absolute;
-    background: url(sh-up.png);
-    height: auto;
-    width: auto;
-    top: 19px;
-    left: 492px;
-}
-.custom .x{
-    visibility: hidden;
-    position: absolute;
-    background: url(sh-down.png);
-    height: auto;
-    width: auto;
-    top: 14px;
-    left: 16px;
+    background-position: 584px 13px;
+    width: 88px;
+    height: 121px;
 }
 .custom .b{
-    visibility: hidden;
-    position: absolute;
-    background: url(E-BRAKE.png);
-    height: auto;
-    width: auto;
-    top: 129px;
-    left: 124px;
+    background-position: 460px 130px;
+    width: 127px;
+    height: 42px;
+}
+.custom .x{
+    background-position: 106px 20px;
+    width: 87px;
+    height: 122px;
 }
 .custom .sticks{
     position: absolute;
